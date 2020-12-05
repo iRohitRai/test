@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>introduction</title>
+    <style>
+        body{
+            position: fixed;
+            margin: 0%;
+            padding: 0%;
+            height: 100vh;
+            width: 100%;   
+            background: black;
+        }
+        button{
+            position: relative;
+            height: 20px;
+            width: 20px;
+            left: 50%;
+            top: 50%;
+            background: white;
+           
+            align-items: center;
+            font-size: 1px;
+            
+            
+        }
+        button:hover{
+            display: inline-block;
+            width: 300px;
+            transform: scale(100) ;
+            z-index: 1;
+            left: 40%;
+            transition:  0.4s ease-in;
+            
+            
+
+
+        }
+       
+        h1{
+            position: absolute;
+            color: rgb(0, 0, 0);
+            font-size: 100px;
+            z-index: 2;
+            left: 50%;
+            transform: translate(-50%);
+        }
+        marquee{
+            position: absolute;
+           
+            z-index: 3;
+            
+            font-size: 20px;
+            
+        }
+        @media screen and (max-width: 768px)
+        {
+            h1{
+                top: 35%;
+                display: inline-block;
+                width: 300px;
+                font-size: 50px;
+               
+            }
+            button:hover{
+                transform: scale(50);
+            }
+        }
+    </style>
+</head>
+<body>
+   
+    <a href="skill.html" > <button >Visit Again    </button> </a>
+    <h1><marquee behavior="alternate" direction="right" scroll-delay="500ms"> click or touch again to continue</marquee>Thank you</h1>
+</body>
+</html>

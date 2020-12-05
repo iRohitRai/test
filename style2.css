@@ -1,0 +1,141 @@
+html,body{
+    margin:0px;
+    padding:0px;
+    background: url("images/coffee2.jpg") no-repeat right center fixed;
+    background-size:cover;
+    height: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .hd{
+   padding: 10px;
+   position: relative;
+   padding-right: 10%;
+   margin: 1%; 
+   text-align: right;
+   background-color: white;
+   border-top-left-radius: 35px ;
+   border-top-right-radius: 35px ;
+   border-bottom-left-radius: 35px ;
+   border-bottom-right-radius: 35px;
+   
+}
+
+  form{
+    width: 650px;
+    height: 580px;
+    
+    font-size: 18px;
+    color: white;
+    box-shadow: 2px 2px 5px 1px rgba(255, 254, 254, 1);
+    border-radius: 3px;
+  }
+  .container{
+    padding-top: 15px;
+    margin-left: 30%;
+    margin-right: 30%;
+    background:rgba(0,0,0,0.4) ;
+  }
+
+   input[type=text],input[type=password]{
+    width: 60%;
+    
+    color: rgb(255, 255, 255);
+    padding: 8px 0 5px 0;
+    margin-bottom:3px;
+    display: inline-block;
+    border: none;
+    border-bottom: solid 2px honeydew;
+    margin-left: 16px;
+    background:transparent;
+    
+    
+  }
+ 
+  
+.container label{
+  padding-left: 16px;
+  position: relative;
+  color: white;
+  top: -30px;
+  left: 0px;
+  font-size: 18px; 
+  pointer-events: none;
+  transition: 0.5s;
+  
+}
+  input:focus,input:valid{
+    box-shadow: none;
+    outline: none;
+    border-bottom: 3px solid green;
+    background-position: 0px;
+    
+  }
+  input :focus~label, input:valid~label{
+    top: -50px;
+    font-size: 14px;
+    color: gold;
+  }
+ 
+  .rem{
+    margin-top: -10px;
+    margin-left: 45%;
+  }
+  button{
+    background-color: rgb(13, 148, 13);
+    color: white;
+    border-top-left-radius: 20px ;
+    border-top-right-radius: 20px ;
+    border-bottom-left-radius: 20px ;
+    border-bottom-right-radius: 20px;
+    padding: 8px 12px;
+    margin: 5px 0;
+    border: none;
+    cursor: pointer;
+    width: auto;
+  }
+  button:hover{
+    opacity: 0.7;
+    transform: translateY(-3px);
+  }
+  .signup{
+    margin-top: 8px;
+    width: auto;
+    padding: 10px 10px;
+    margin-left: 16px;
+    background-color: rgb(185, 24, 24) ;
+  }
+  .image{
+    margin-left: 28%;
+    width: 120px;
+    height: 180px;
+  }
+  img.logo{
+    padding-top: 80px;
+    text-align: left;
+    height: 90px;
+    width: 110px;
+    
+  
+  }
+
+  .containerr{
+    height: 55px;
+  }
+  span.psd{
+    float: right;
+    padding-top: 10px;
+    padding-right: 50px;
+  }
+.bg{
+  
+  width: 650px;
+  height: 580px;
+ 
+  background-repeat: no-repeat;
+  margin: auto;
+  margin-top: 15%;
+  
+  background-image: cover;
+}
+
+      
