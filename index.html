@@ -39,6 +39,9 @@
 
         }
        
+        a{
+            text-align: center;
+        }
         h1{
             position: absolute;
             color: rgb(0, 0, 0);
@@ -57,15 +60,19 @@
         }
         @media screen and (max-width: 768px)
         {
+           
+            
             h1{
+                height: auto;
+                padding: 10px;
                 top: 35%;
                 display: inline-block;
                 width: 300px;
-                font-size: 50px;
+                font-size: 40px;
                
             }
             button:hover{
-                transform: scale(50);
+                transform: scale(30);
             }
         }
     </style>
@@ -73,6 +80,6 @@
 <body>
    
     <a href="skill.html" > <button >Visit Again    </button> </a>
-    <h1><marquee behavior="alternate" direction="right" scroll-delay="500ms"> click or touch again to continue</marquee>Thank you</h1>
+   <h2><marquee behavior="alternate" direction="right" scroll-delay="500ms" > click or touch again to continue</marquee></h2><h1> Thank you</h1>
 </body>
 </html>
